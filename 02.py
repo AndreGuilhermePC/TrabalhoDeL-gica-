@@ -7,7 +7,7 @@ print('|      2      |         R$ 11,00       |      R$ 13,00      |       R$ 15
 print('|      3      |         R$ 15,00       |      R$ 18,00      |       R$ 21,00      |')
 print('-' * 83)
 
-total = 0 #Acumula os valores que o cliente vai pagar 
+total = 0 #Acumula os valores que o cliente vai pagar
 while True:
     while True:
         sabor = input("Entre com o sabor desejado (tr/es/pr): ").lower() #lower() possinilita entra com letra maíusculas ou minúsculas
